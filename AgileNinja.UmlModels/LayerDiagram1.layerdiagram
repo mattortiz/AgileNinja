@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="8327c734-7962-402a-89e0-59ede9866739" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="3e6de6c2-dc55-407e-b590-3e8c566285b6" name="Web">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="15d531f5-6319-48db-b592-f18add3d9113" direction="Forward">
+          <layerMoniker Id="5863f9ea-3cf9-40fe-b0bb-cbf1139e87d3" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="c55c975a-b82b-42db-be57-142af94115b5" direction="Forward">
+          <layerMoniker Id="112d1fd8-30f1-4ef9-b083-68f562f1d80b" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="6691e8a8-cc7d-4120-9d01-7785d9adf937" direction="Forward">
+          <layerMoniker Id="44431694-9f50-4ff7-af5d-51a57f197c9c" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="5863f9ea-3cf9-40fe-b0bb-cbf1139e87d3" name="Application Service">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="9a127e50-a1ff-43da-9c9f-dc76e7aae5e5" direction="Forward">
+          <layerMoniker Id="c2e46faa-c884-4a0d-a902-6ec40e19d3d4" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="cac68a26-0058-4148-8424-34a80a937e68" direction="Forward">
+          <layerMoniker Id="112d1fd8-30f1-4ef9-b083-68f562f1d80b" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="98cf7b81-892b-4d18-a433-884b9a39aabc" direction="Forward">
+          <layerMoniker Id="44431694-9f50-4ff7-af5d-51a57f197c9c" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="0b72e0da-0d0e-41b0-8474-a325f6fe5d38" name="Manager" />
+        <layer Id="c7770835-2a62-41da-8efa-37fb047054be" name="Service Agent" />
+      </childLayers>
+    </layer>
+    <layer Id="c2e46faa-c884-4a0d-a902-6ec40e19d3d4" name="Service">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="0569ad47-323a-481c-9107-2f3f47f25fbb" direction="Forward">
+          <layerMoniker Id="9d9104dd-2a6e-42ef-b7bf-2e7c9952a31c" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="e0d10dc9-c233-4550-80ee-418ae2153c59" direction="Forward">
+          <layerMoniker Id="112d1fd8-30f1-4ef9-b083-68f562f1d80b" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="1e68351e-e36c-4828-b485-6d83d55f1f57" direction="Forward">
+          <layerMoniker Id="44431694-9f50-4ff7-af5d-51a57f197c9c" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="9d9104dd-2a6e-42ef-b7bf-2e7c9952a31c" name="Business">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="f4ba0723-838f-4282-89d4-54e2f9868b43" direction="Forward">
+          <layerMoniker Id="f0cfd887-6e52-43c8-9ace-9251bf66119b" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="3771129a-9d14-4e79-93ea-289b1ce73de0" direction="Forward">
+          <layerMoniker Id="112d1fd8-30f1-4ef9-b083-68f562f1d80b" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="e33d5976-bfef-4769-991e-48609f5732c0" direction="Forward">
+          <layerMoniker Id="44431694-9f50-4ff7-af5d-51a57f197c9c" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="f0cfd887-6e52-43c8-9ace-9251bf66119b" name="Resource Access">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="59b8ae51-d384-4d71-81f3-b0b8a91b4bc8" direction="Forward">
+          <layerMoniker Id="112d1fd8-30f1-4ef9-b083-68f562f1d80b" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="9fcc64cd-6b39-452b-a6de-86698a2fc831" direction="Forward">
+          <layerMoniker Id="44431694-9f50-4ff7-af5d-51a57f197c9c" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="112d1fd8-30f1-4ef9-b083-68f562f1d80b" name="Domain" />
+    <layer Id="44431694-9f50-4ff7-af5d-51a57f197c9c" name="Cross Cutting" />
+  </layers>
+</layerModel>
